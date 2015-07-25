@@ -226,7 +226,7 @@ footer{
 
 #text-container{
     height: auto;
-    width: 940px;
+    width: 920px;
     background: white;
     float: left;
     padding: 20px;
@@ -237,3 +237,12 @@ footer{
     height: 360px;
 }
 
+#contact-text{
+    height: 661px;
+    background: white;
+    padding: 20px;
+    width: 240px;
+    font-family: arial;
+    float: left;
+    font-size: 18px;
+}
