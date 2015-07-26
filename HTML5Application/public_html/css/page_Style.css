@@ -139,12 +139,13 @@ nav a {
 }
 #complementor{
     padding: 10px;
-    width: 960px;
-    min-height: 400px;
-    margin-top: 40px;
-    border-top: 4px solid rgb(34, 34, 34);
-    background-color: rgba(31, 31, 31, 0.48);
-    border-radius: 10px;
+  width: 960px;
+  min-height: 400px;
+  border-top: 4px solid rgb(34, 34, 34);
+  background-color: rgba(31, 31, 31, 0.48);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 header a:hover, header label:hover {
     color: white;
