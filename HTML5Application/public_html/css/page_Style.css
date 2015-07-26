@@ -298,3 +298,7 @@ header a{
     -moz-box-sizing: initial !important;
     box-sizing: initial !important;
 }
+body
+{
+    background-image: url(../images/background.jpg); 
+}
