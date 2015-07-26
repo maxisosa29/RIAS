@@ -15,22 +15,32 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="css/page_Style.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="engine0/jquery.js"></script>
-        <link href="css/page_Style.css" rel="stylesheet" type="text/css"/>
+        <!--<<<<<<< HEAD
+                <link href="css/page_Style.css" rel="stylesheet" type="text/css"/>
+        =======
+        
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+           <script src="scripts/script.js" type="text/javascript"></script>
+           <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        >>>>>>> origin/sosa-branch -->
         <!-- End WOWSlider.com HEAD section --></head>
     <body>
         <header>
-            <a class="logo" href="index.html">Awsome-Cars.com</a>
-
+           <object data="logo flash.swf" style="
+    height: 56px;
+    width: 198px;
+"></object>
             <input id="nav" type="checkbox">
             <label for="nav"></label>
 
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Info</a></li>
-                    <li><a href="#">Galeria</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
                     <li><a href="#">Video</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </nav> 
 
@@ -55,10 +65,12 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="ws_images"><ul>
+
                         <li><img src="data0/images/car_1.png" alt="car_1" title="Ford De Fiesta" id="wows0_0"/></li>
                         <li><img src="data0/images/car_2.jpg" alt="car_2" title="Mercedes X450RZ" id="wows0_1"/></li>
-                        <li><a href="http://wowslider.com"><img src="data0/images/car_4.jpg" alt="slideshow wordpress" title="Audi PT300" id="wows0_2"/></a></li>
+                        <li><img src="data0/images/car_4.jpg" alt="slideshow wordpress" title="Audi PT300" id="wows0_2"/></li>
                         <li><img src="data0/images/car_3.jpg" alt="car_3" title="Chevrolet 25" id="wows0_3"/></li>
+
                     </ul></div>
                 <div class="ws_bullets"><div>
                         <a href="#" title="Ford De Fiesta"><span><img src="data0/tooltips/car_1.png" alt="Ford De Fiesta"/>1</span></a>
@@ -71,6 +83,30 @@ and open the template in the editor.
                 <script type="text/javascript" src="engine0/wowslider.js"></script>
                 <script type="text/javascript" src="engine0/script.js"></script>
             </div>	
+
+            <!--        <div id="nav">
+        <ul class="nav">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">INFO</a></li>
+            <li><a href="#">GALERÍA</a></li>
+            <li><a href="#">VIDEO    </a></li>
+            <li><a href="#">CONTACTO</a></li>
+        </ul>
+    </div> -->
+            <!--<div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='#'>Home</a></li>
+               <li><a href='info.html'>Info</a></li>
+               <li><a href='#'>Galery</a></li>
+               <li><a href='#'>Video</a></li>
+               <li><a href='#'>Contact</a></li>
+            </ul>
+            </div>
+                        <div id="text-container">
+                        </div>
+                        <div>
+            -->
+
             <!-- End WOWSlider.com BODY section -->
             <div id="complementor">
                 <div class="column-triplet">
@@ -85,7 +121,7 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="column-triplet">
-                    <div style="    padding: 25px;padding-top: 10px;">
+                    <div class="column-triplet-content">
                         <p class="title">Los mejores Autos</p>
                         <div class="image-container" style="height: auto;width:100%;">
                             <image src="images/2.jpg" />
@@ -96,7 +132,7 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="column-triplet">
-                    <div style="    padding: 25px;padding-top: 10px;">
+                    <div class="column-triplet-content">
                         <p class="title">Ventas top</p>
                         <div class="image-container" style="height: auto;width:100%;">
                             <image src="images/3.jpg" />
@@ -106,8 +142,10 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+        <footer id="footer">
+            <p id="footer-font">Todos los derechos reservados TecnoAutomovilismo.com | Nicolás Carnebia, Julio Grajales, Andrés Peña, Maximiliano Sosa</p>
+        </footer>
     </body>
 </html>
