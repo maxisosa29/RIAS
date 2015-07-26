@@ -12,7 +12,7 @@ body{
 }
 header {
     overflow: hidden;
-    background: #222;
+    background: #282828;
 }
 
 header a, header label {
@@ -114,10 +114,14 @@ nav a {
     vertical-align: baseline;
     align-items: center;
 }
+.image-container img{
+    height: 200px;
+}
 .column-triplet{
     width:33.3%;
-    min-height:200px;float:left;
-
+    min-height:200px;
+    float:left;
+    min-height: 376px;
 }
 .column-triplet .title{
     margin: 0;
@@ -127,12 +131,20 @@ nav a {
     padding: 10px;
     border-top: 2px solid rgb(50, 49, 48);
 }
-#complementor{padding: 10px;
-              width: 960px;
-              min-height: 400px;
-              margin-top: 40px;
-              border-top: 4px solid rgb(34, 34, 34);
-              background-color: rgba(31, 31, 31, 0.28);
+.column-triplet-content{
+    min-height: 341px;
+    padding: 25px;
+    padding-top: 10px;
+    /* border-radius: 100px; */
+}
+#complementor{
+    padding: 10px;
+    width: 960px;
+    min-height: 400px;
+    margin-top: 40px;
+    border-top: 4px solid rgb(34, 34, 34);
+    background-color: rgba(31, 31, 31, 0.48);
+    border-radius: 10px;
 }
 header a:hover, header label:hover {
     color: white;
@@ -191,7 +203,7 @@ a.ws_prev {
 }
 #container {
     margin:0 auto 0 auto; 
-    width: 980px;
+    width: 60%;
     height:100%;
 }
 html, body {
@@ -209,12 +221,22 @@ html, body {
     top: 0;
     left: 0;
 }
+
+#footer{
+    background-image: url(../images/tyre_footprint.jpg);
+    background-repeat: repeat-x;
+    background-size: 500px 100%;
+    border-bottom:2px solid #282828;
+    margin-top: 10px;
+}
+
 #footer-font {
+    width: 100%;
+    text-align: center;
     font-family: arial;
     color: white;
     font-size: 14px;
     position: absolute;
-
 }
 
 footer{
@@ -225,21 +247,25 @@ footer{
 }
 
 #text-container{
+    color: white;
     height: auto;
-    width: 920px;
-    background: white;
+    background: rgb(28, 26, 24);
     float: left;
     padding: 20px;
     font-family: arial;
 }
 #imagen-info{
-    width: 960px;
+    width: 100%;
     height: 360px;
+}
+#imagen-info img{
+    width: 100%;
 }
 
 #contact-text{
     height: 661px;
-    background: white;
+    //background: white;
+    background-image: url(../images/contact_background.jpg);
     padding: 20px;
     width: 240px;
     font-family: arial;
