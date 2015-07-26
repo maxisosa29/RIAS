@@ -203,7 +203,7 @@ a.ws_prev {
     border: none;
 }
 #container {
-    margin:0 auto 0 auto; 
+    margin:0 auto; 
     width: 60%;
     height:100%;
 }
@@ -254,13 +254,14 @@ footer{
     float: left;
     padding: 20px;
     font-family: arial;
-}
+ }
 #imagen-info{
     width: 100%;
     height: 360px;
 }
 #imagen-info img{
     width: 100%;
+    float: left;
 }
 
 #contact-text{
