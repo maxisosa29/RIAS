@@ -274,3 +274,27 @@ footer{
     float: left;
     font-size: 18px;
 }
+#elastic_grid
+{
+    background-image: url(../images/background.jpg);
+}
+#porfolio-nav a:hover { 
+    background-color: rgb(44, 44, 44) !important;
+    border-bottom: 3px solid rgb(51, 141, 179) !important;
+}
+#porfolio-nav a{ 
+    color: white !important;
+    padding: 17px !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+}
+#porfolio-nav li{
+    padding: 10px 0px 10px 0px !important;
+}
+header a{
+    -webkit-box-sizing: initial !important;
+    -moz-box-sizing: initial !important;
+    box-sizing: initial !important;
+}
