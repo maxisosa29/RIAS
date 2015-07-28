@@ -207,6 +207,12 @@ a.ws_prev {
     width: 60%;
     height:100%;
 }
+#container-contact {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    float: left;
+}
 html, body {
     height: 100%;
     width: 100%;
